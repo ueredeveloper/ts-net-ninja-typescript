@@ -7,7 +7,12 @@
 
 ### [Aula #2](https://www.youtube.com/watch?v=iTZ1-85I77c&list=PL4cUxeGkcC9gUgr39Q_yD6v-bSyMwKPUI&index=2)
 
-instalação da extensão `Live Server` e instalação do typescript `npm i typescript`
+ - instalação da extensão `Live Server` e; 
+ - instalação do typescript global ` npm install -g typescript`
+
+03/05/2023
+
+- Para editar o index.js a partir do index.ts: tsc index.ts
 ___
 
 

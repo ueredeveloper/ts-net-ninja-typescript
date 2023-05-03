@@ -3,11 +3,19 @@ interface Usuario {
     cpfcnpj: string
 }
 
-const usuario : Usuario ={
-    nome: 'João',
-    cpfcnpj: '123.456.789-45'
+interface Colaborador extends Usuario {
+    type: string
 }
 
-const div = document.getElementById('nome') as HTMLDivElement;
+const colaborador: Colaborador = {
+    nome: 'Luciano',
+    cpfcnpj: '123',
+    type: 'adm'
 
-div.innerHTML = usuario.nome;
+}
+
+let nome = document.querySelector('#nome');
+
+if (nome !== null) {
+    nome.innerHTML = colaborador.nome
+}

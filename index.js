@@ -1,6 +1,9 @@
-var usuario = {
-    nome: 'João',
-    cpfcnpj: '123.456.789-45'
+var colaborador = {
+    nome: 'Luciano',
+    cpfcnpj: '123',
+    type: 'adm'
 };
-var div = document.getElementById('nome');
-div.innerHTML = usuario.nome;
+var nome = document.querySelector('#nome');
+if (nome !== null) {
+    nome.innerHTML = colaborador.nome;
+}
